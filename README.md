@@ -4,7 +4,7 @@ In total, there are 6 data sets with quantitative and binary outcomes from the p
 Further, we provide data with different valence ranges. 
 
 The following data can be found in this folder
-  * human_LagreValenceRange_SpringSchool (binary)
+  * human_LargeValenceRange_SpringSchool (binary)
   * human_LargeValanceRange (binary)
   * human_LowValenceRange (binary)
   * Mice_oneLineTest1_20201102DP (quantitative)
