@@ -4,12 +4,12 @@ In total, there are 6 data sets with quantitative and binary outcomes from the p
 Further, we provide data with different valence ranges. 
 
 The following data can be found in this folder
-  * human_LargeValenceRange_SpringSchool (binary)
-  * human_LargeValanceRange (binary)
-  * human_LowValenceRange (binary)
-  * Mice_oneLineTest1_20201102DP (quantitative)
-  * Mice_oneLineTest2_20201102DP (quantitative)
-  * Rhesus_oneLine_20201116DP (quantitative)
+  * Human_LargeValence_2018 (binary)
+  * Human_LargeValence_2017 (binary)
+  * Human_LowValence_2017 (binary)
+  * Mice_LowValence (quantitative)
+  * Mice_LargeValence (quantitative)
+  * Monkey_LargeValence (quantitative)
 
 The data can be loaded (as text files) with the bimload function from the R simsalRbim package.   
 You might have to download the files into a folder on your computer.  
@@ -18,7 +18,7 @@ The package can be found here: [simsalRbim](https://talbotsr.com/simsalRbim/)
 
 ## Loading the data
 library(simsalRbim)  
-dat <- bimload("YOUR_PATH/human_LargeValenceRange_SpringSchool.txt")  
+dat <- bimload("YOUR_PATH/Human_LargeValence_2018.txt")  
 
 ## Citation and terms of use
 The data are presented in the manuscript **"place title here"** which is currently under review.  
